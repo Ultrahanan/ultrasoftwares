@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .wrapper {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 14rem;
+  background-color: black;
+  padding: 10px;
+  color: var(--white);
+}
+.logo-container {
+  padding: 1rem 1rem;
+  border-bottom: 0.063rem solid white;
+  color: aliceblue;
+}
+.sidebar-menu {
+  padding-top: 1rem;
+}
+
+.menu-items {
+  list-style-type: none;
+  padding: 20px;
+  margin: 10px;
+  padding-left: 1rem;
+}
+.menu-items > li {
+  color: white;
+  font-size: larger;
+  font-weight: 900;
+}
+.menu-items > li > a {
+  color: var(--white);
+  text-decoration: none;
+}
+.menu-items > li > a:hover {
+  color: var(--slate-200);
+}
+.menu-items > li > a:hover {
+  text-decoration: underline;
+}
+.menu-items > li:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+.container{
+    width: 100%;
+}
+.header {
+  display: flex;
+  height: 4rem;
+  width: 100%;
+  padding: 1rem 1rem;
+  box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 0.2);
+  background-color: var(--slate-50);
+  justify-content: space-between;
+}
+.header > h1 {
+  color: green;
+}
+.content {
+  padding: 2rem 2rem;
+  height: calc(100vh - 4rem);
+  line-height: 1.5;
+  overflow-y: auto;
+}
+.btn-show {
+  background-color: var(--slate-400);
+  padding: 0.5rem 1rem;
+  color: var(--white);
+  border-radius: 5px;
+}
+.btn-show:hover {
+  background-color: var(--slate-500);
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Sidebar-->
+        <div class="sidebar">
+          <!-- Logo -->
+          <div class="logo-container">
+            <h1>Logo</h1>
+          </div>
+          <div class="sidebar-menu">
+            <ul class="menu-items">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="members.html">Members</a>
+              </li>
+              <li>
+                <a href="payments.html">Payments</a>
+              </li>
+              <li>
+                <a href="">Seasons</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+            <header class="header">
+                <h1>Dashboard</h1>
+                <h1>User btn</h1>
+            </header>
+
+            <div class="content">
+                <div style="text-align: right">
+                  <button type="button" class="btn-show">Show modal</button>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                  quod suscipit pariatur dolorem totam! Officia voluptatibus sint quis
+                  tempora quidem corrupti nesciunt rem quasi error! Neque rerum earum
+                  enim deleniti.
+                </p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus sit
+                  delectus rem officia, corporis illum vitae autem optio fugiat libero
+                  excepturi, deleniti fugit impedit incidunt quos ab, quidem soluta
+                  sunt?
+                </p>
+                <p>
+                  Dolorem recusandae maiores autem omnis reprehenderit enim molestias
+                  sapiente dignissimos fugiat, illo expedita provident fugit facere
+                  eaque tempora delectus doloribus, eligendi repellat explicabo saepe
+                  reiciendis nisi dolores inventore ad! Eos.
+                </p>
+                <p>
+                  Quo beatae dolore fugiat doloremque commodi modi cum consequuntur id
+                  quos minus atque voluptate optio non fuga deserunt repudiandae,
+                  veniam consequatur libero nulla temporibus ut. Quas natus hic omnis
+                  similique!
+                </p>
+                <p>
+                  Enim sapiente at facere nam quibusdam soluta accusantium! Quis,
+                  labore. Iste atque asperiores, totam hic harum nobis dolores,
+                  accusamus cumque unde facilis, amet tempore recusandae rerum aperiam
+                  odit maiores culpa.
+                </p>
+                <p>
+                  Dolores voluptatem animi iste ipsa, eveniet quasi corrupti
+                  repudiandae cupiditate dolore, ab laboriosam unde blanditiis in quam
+                  accusantium sed earum veniam pariatur, facilis quibusdam architecto
+                  excepturi aliquam. Adipisci, facere. Temporibus.
+                </p>
+                <p>
+                  Unde deleniti, velit eos porro necessitatibus quasi, sed ratione
+                  modi molestiae ipsa libero quam sapiente, distinctio fuga quo optio
+                  ipsam dolores eligendi? Dignissimos quibusdam dolores adipisci iure
+                  nesciunt dolore consectetur?
+                </p>
+                <p>
+                  Reiciendis consequuntur assumenda non explicabo placeat excepturi
+                  nisi harum ducimus aliquid earum eos quae quas repudiandae mollitia
+                  iure accusantium, recusandae officia consectetur saepe! Qui nihil
+                  eos temporibus, error corporis deleniti?
+                </p>
+                <p>
+                  Ullam aliquam quam, ab hic voluptates nam dolorum dolorem facere
+                  voluptatum fugit minima earum harum cupiditate et eius modi
+                  molestiae at porro doloremque sequi tenetur exercitationem. Ea
+                  officiis ut quo.
+                </p>
+                <p>
+                  Possimus provident quam maiores aliquam ratione adipisci ut incidunt
+                  dicta! Aliquam, modi ullam? Ullam laborum et adipisci molestiae amet
+                  possimus ut obcaecati saepe. Eveniet esse ipsa accusantium quidem
+                  non nemo?
+                </p>
+                <p>
+                  Iure, voluptatibus! Ratione, dignissimos libero hic saepe quos,
+                  maxime impedit ipsa dolor sed numquam vitae unde eos sequi ipsum
+                  architecto odit enim. Ex voluptatem laudantium sed, dolor ut
+                  corrupti nam!
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                  obcaecati quae, fugiat optio dolor voluptas magni autem quisquam
+                  distinctio aperiam beatae assumenda error facere labore, consectetur
+                  inventore ad quibusdam officiis?
+                </p>
+                <p>
+                  Vel assumenda quasi recusandae qui! Nam aut fugit quas reprehenderit
+                  rem qui dolorem quaerat eius? Alias eligendi inventore distinctio
+                  illo ipsa. Reprehenderit quod, fugiat nam natus alias id nostrum
+                  eum!
+                </p>
+              </div>
+            </div>
+        
+</body>
+</html>

@@ -1,3 +1,20 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const openMenu = document.getElementById("open-menu");
+  const closeMenu = document.getElementById("close-menu");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  if (openMenu && closeMenu && mobileMenu) {
+    openMenu.addEventListener("click", function () {
+      mobileMenu.classList.add("open");
+      // Optionally, you can also add a class to the body to prevent scrolling
+      document.body.classList.add("no-scroll");
+    });
+    closeMenu.addEventListener("click", function () {
+      mobileMenu.classList.remove("open");
+    });
+  }
+});
+
 function scrollBetweenpages() {
   //
 }

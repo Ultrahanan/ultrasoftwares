@@ -108,7 +108,7 @@
 .purpose {
   transition: 0.8s ease-out;
   animation: disco 5s infinite;
-  z-index: 1000;
+  z-index: 100;
 }
 .name-txt {
   color: red;

@@ -3,7 +3,7 @@
 
 .wrapper {
   overflow-y: scroll;
-  height: 650px;
+  height: 100vh;
   /* background-image: url(bck-2.jpg);
    /*background-image: linear-gradient(to right, #00ffff, #00f);
     background-repeat: no-repeat;
